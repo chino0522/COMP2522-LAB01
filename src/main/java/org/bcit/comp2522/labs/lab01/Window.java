@@ -9,7 +9,6 @@ public class Window extends PApplet {
     }
 
     public void draw() {
-//        ellipse(mouseX, mouseY, 10, 10);
         rect(100, 250, 120, 10);
         rect(275, 250, 120, 10);
         rect(300, 350, 10, 120);
@@ -24,8 +23,6 @@ public class Window extends PApplet {
         triangle(200, 170, 250, 165, 250, 175);
         triangle(220, 120, 250, 80, 280, 120);
         line(220, 190, 280, 190);
-//        square(200, 200, 200);
-//        triangle(150, 200, 350, 200, 350, 150);
     }
 
     public void mousePressed() {
